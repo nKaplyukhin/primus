@@ -7,20 +7,13 @@ export const Catalog = () => {
     <Box
       sx={{
         display: "flex",
-        height: "100%",
         flexDirection: "column",
-        overflow: "hidden",
       }}
     >
       <Typography>Каталог услуг в Красноярске</Typography>
       <Box
         sx={{
-          height: "100%",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "stretch",
-          flexDirection: "column",
-          flexWrap: "wrap",
+          columnCount: 5,
         }}
       >
         {mockCatalog.map((item, index) => (

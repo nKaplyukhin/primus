@@ -11,6 +11,7 @@ export const CatalogBlock = ({ image, name, list }: CatalogBlockProps) => {
   return (
     <Box
       sx={{
+        breakInside: "avoid-column",
         p: 1,
         justifySelf: "left",
         width: "100%",
